@@ -322,6 +322,7 @@ npm run dev
 <br/>
 
 <!-- 🛰️ ANIMATED COSMIC FOOTER -->
+<div align = "center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00E5FF,30:49117C,65:1A1A40,85:0A0E27,100:02020A&height=130&section=footer&animation=fadeIn" />
 
 </div>
