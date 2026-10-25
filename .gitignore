@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Python Virtual Environments & Bytecode
+venv/
+**/venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Production & Build outputs
+dist/
+**/dist/
+build/
+**/build/
+
+# Environment Variables & Secrets
+.env
+**/.env
+.env*.local
+**/.env*.local
+
+# Hardhat & Contract Cache
+artifacts/
+**/artifacts/
+cache/
+**/cache/
+
+# Logs & Temporary files
+*.log
+**/*.log
+.cache/
+**/.cache/
+
+# OS / Editor generated
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

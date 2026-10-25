@@ -1,0 +1,28 @@
+{
+    "name": "kesslergrid-backend",
+    "version": "1.0.0",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js",
+        "watchdog": "node src/workers/index.js"
+    },
+    "dependencies": {
+        "axios": "^1.19.0",
+        "better-sqlite3": "^13.0.3",
+        "cors": "^2.8.6",
+        "dotenv": "^16.6.1",
+        "ethers": "^6.17.0",
+        "express": "^4.22.2",
+        "keccak256": "^1.0.6",
+        "merkletreejs": "^0.3.11",
+        "morgan": "^1.11.0",
+        "node-cron": "^3.0.3",
+        "pg": "^8.11.5",
+        "sqlite3": "^6.0.1"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.14"
+    }
+}

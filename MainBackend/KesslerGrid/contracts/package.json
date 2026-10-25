@@ -1,0 +1,13 @@
+{
+  "name": "kesslergrid-contracts",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "node": "hardhat node",
+    "compile": "hardhat compile"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  }
+}

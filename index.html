@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/jpeg" href="/textures/kg-logo.jpeg" />
+  <link rel="apple-touch-icon" href="/textures/kg-logo.jpeg" />
+  <title>KesslerGrid // Autonomous STM</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body,
+    html {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #000;
+    }
+
+    /* Global Aerospace Scrollbar System (Prevents white default browser scrollbars) */
+    * {
+      scrollbar-width: thin;
+      scrollbar-color: rgba(71, 85, 105, 0.75) rgba(2, 6, 23, 0.95);
+    }
+
+    ::-webkit-scrollbar {
+      width: 7px;
+      height: 7px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: rgba(2, 6, 23, 0.95);
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: rgba(71, 85, 105, 0.75);
+      border-radius: 0px;
+      border: none;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgba(6, 182, 212, 0.65);
+    }
+
+    /* Remove native number input spinners across all browsers */
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none !important;
+      margin: 0 !important;
+    }
+
+    input[type="number"] {
+      -moz-appearance: textfield !important;
+      appearance: textfield !important;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>

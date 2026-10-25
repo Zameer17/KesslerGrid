@@ -1,0 +1,19 @@
+services:
+  # KesslerGrid Backend API Gateway & Sentinel
+  - type: web
+    name: kesslergrid-backend
+    env: node
+    rootDir: backend
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: CORS_ALLOW_ALL
+        value: "true"
+      - key: NETWORK_BASE_LIABILITY_ETH
+        value: "5.00"
+      # Optional: Connect to remote blockchain RPC (e.g. Sepolia or Base Sepolia)
+      # - key: BLOCKCHAIN_RPC_URL
+      #   value: https://rpc.sepolia.org

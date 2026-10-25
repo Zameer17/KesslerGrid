@@ -1,0 +1,35 @@
+{
+  "name": "kesslergrid",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.8",
+    "@react-three/fiber": "^9.7.0",
+    "@react-three/postprocessing": "^3.1.1",
+    "astronomy-engine": "^2.1.19",
+    "axios": "^1.19.0",
+    "ethers": "^6.17.0",
+    "framer-motion": "^13.2.0",
+    "lucide-react": "^1.31.0",
+    "postprocessing": "^6.39.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "satellite.js": "^7.1.0",
+    "three": "^0.185.1",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/three": "^0.185.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.0"
+  }
+}
